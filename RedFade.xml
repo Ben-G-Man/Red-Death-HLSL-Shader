@@ -1,0 +1,16 @@
+<effect>
+<name>Fade To Red</name>	
+<description>Reduces every chanel but red according to an animation coefficient.</description>
+<company>Net Negative</company>
+<BackgroundTexture>1</BackgroundTexture>
+<parameter>
+		<name>Animation Coefficient</name>
+		<code>animCoeff</code>
+		<description>The animation coefficient (0 = start, 64 = finish)</description>
+		<type>int</type>
+		<property>slider</property>
+		<min>0</min>
+		<max>64</max>
+</parameter>
+</effect>
+
